@@ -1,3 +1,8 @@
+require('shieldfy-nodejs-client').start({
+    appKey:'appkey',
+    appSecret:'123456'
+});
+
 const express = require('express')
 const app = express()
 const port = 3000
