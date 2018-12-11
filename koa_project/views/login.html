@@ -1,0 +1,62 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" integrity="sha256-rnmbX+ZXZml9xbNUKt/qXfgpCi6zLJX7qqR+7vX/1ZY=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <a class="navbar-brand" href="/">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/register">Register</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container mt-4">
+          <div class="card col-12 col-md-6 offset-md-3 p-0">
+            <h4 class="card-header text-center text-white  bg-warning">Login</h4>
+            <div class="card-body">
+                <form class="mt-4" method="post" action="/login">
+                       <fieldset class="form-group">
+                         <label for="userName">User Name:</label>
+                         <input type="text" class="form-control" id="userName" name="user_name" placeholder="User Name" required>
+                       </fieldset>
+                       <fieldset class="form-group">
+                         <label for="password">Password</label>
+                         <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                         <a class="float-right" href="#" data-toggle="modal" data-target="#modal-1">Forget password?</a>
+                       </fieldset>
+
+                       <div class="d-md-flex pt-2">
+                         <div class="col-12 col-md-5 order-md-last p-2">
+                           <button type="submit" class="btn btn-warning btn-lg btn-block text-white">Login</button>
+                         </div>
+                         <div class="col-12 col-md-7 order-md-first p-2">
+                           <p class="mb-0">You don't have an account?</p>
+                           <a class="text-center" href="/register">Register Now!</a>
+                         </div>
+                       </div>
+
+                     </form>
+                 </div>
+             </div>
+         </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

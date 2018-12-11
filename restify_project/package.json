@@ -1,15 +1,16 @@
 {
-  "name": "shieldfy-node-test",
+  "name": "restify_project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "shieldfy-nodejs-client": "file:../../SDKs/shieldfy-nodejs-client"
+    "nodemon": "^1.18.8",
+    "restify": "^7.3.0"
   }
 }
