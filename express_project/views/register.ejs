@@ -26,6 +26,9 @@
             </ul>
           </div>
         </nav>
+        <% if (message) { %>
+          <h3><%= message %></h3>
+        <% } %>
         <div class="container mt-4">
           <div class="card col-12 col-md-6 offset-md-3 p-0">
             <h4 class="card-header text-center text-white  bg-warning">SignUp</h4>
@@ -43,8 +46,8 @@
                     </fieldset>
                     <fieldset class="form-group">
                       <label for="password">Password</label>
-                      <input type="password" class="form-control" id="password" name="password" placeholder="Password" pattern=".{8,}" title="password should be 8 or more characters" required>
-                      <small class="form-text text-muted">should be 8 or more characters</small>
+                      <input type="password" class="form-control" id="password" name="password" placeholder="Password" pattern=".{4,}" title="password should be 4 or more characters" required>
+                      <small class="form-text text-muted">should be 4 or more characters</small>
                     </fieldset>
                     <fieldset class="form-group">
                       <label for="img">Image</label>

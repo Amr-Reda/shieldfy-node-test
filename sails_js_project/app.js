@@ -34,6 +34,11 @@ var rc;
 try {
   sails = require('sails');
   rc = require('sails/accessible/rc');
+      // require('shieldfy-nodejs-client').start({
+      //   appKey:'7nh1p9t',
+      //   appSecret:'e1cc34ae072216e829b114ff1a6c88831ca8dd2807b692a29e3fbbd3830b48ab',
+      //   // endPoint:'https://7229e17a.ngrok.io/v2/',
+      // });
 } catch (err) {
   console.error('Encountered an error when attempting to require(\'sails\'):');
   console.error(err.stack);

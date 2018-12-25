@@ -26,6 +26,9 @@
             </ul>
           </div>
         </nav>
+        <% if (message) { %>
+          <h3><%= message %></h3>
+        <% } %>
         <div class="container mt-4">
           <div class="card col-12 col-md-6 offset-md-3 p-0">
             <h4 class="card-header text-center text-white  bg-warning">Login</h4>

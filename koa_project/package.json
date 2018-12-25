@@ -15,8 +15,10 @@
     "koa-body": "^4.0.4",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
+    "koa-session": "^5.10.0",
     "koa-views": "^6.1.4",
     "mongoose": "^5.3.15",
-    "nodemon": "^1.18.8"
+    "nodemon": "^1.18.8",
+    "shieldfy-nodejs-client": "file:../shieldfy-nodejs-client"
   }
 }

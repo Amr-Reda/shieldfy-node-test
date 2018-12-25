@@ -10,7 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.6.1",
+    "mysql2": "^1.6.4",
     "nodemon": "^1.18.8",
-    "restify": "^7.3.0"
+    "restify": "^7.3.0",
+    "restify-cookies": "^0.2.5",
+    "restify-render-middleware": "^2.0.1",
+    "shieldfy-nodejs-client": "file:../shieldfy-nodejs-client"
   }
 }
